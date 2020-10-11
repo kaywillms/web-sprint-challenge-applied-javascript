@@ -32,6 +32,8 @@ function Header() {
  return createHeader
 }
 
+const entryPoint = document.querySelector(".header-container");
+
 const head = document.querySelector("header")
 header.forEach(data => {
  head.append(Header())
